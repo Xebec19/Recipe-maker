@@ -1,0 +1,14 @@
+.footer{
+  position: sticky;
+  bottom: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF6A6A;
+  height: 15vh;
+  background: linear-gradient(to left, #FFB300, #EF002F);
+  font-family: abel;
+  color: white;
+  font-size: 3vh;
+}

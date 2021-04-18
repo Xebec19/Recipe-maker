@@ -7,3 +7,14 @@ body {
   margin-bottom: 0px;
   padding-bottom: 0px
 }
+.container{
+  display: grid;
+  grid-template-areas: 
+  'one two';
+}
+.recipe{
+  grid-area: one;
+}
+.shop{
+  grid-area: two;
+}

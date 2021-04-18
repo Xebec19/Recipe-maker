@@ -5,30 +5,35 @@ flex-direction: row;
 width:100%;
 align-items: center;
 justify-content: space-between;
-background-color: darkolivegreen;
-padding: 2rem;
+background: linear-gradient(to left, #FFB300, #EF002F);
+padding-top: 2rem;
+padding-bottom: 2rem;
 font-size: 3vh;
+overflow: hidden;
 }
 .nav > .logo{
 justify-content: flex-start;
 transition: color .10s ease-in;
 cursor: pointer;
+color:whitesmoke;
+padding-left: 1vw;
 }
 .nav > .logo:hover{
-  color:tomato;
+  color:darkturquoise;
 }
 .nav > .links{
 justify-content: flex-end;
+color:whitesmoke;
 }
 .links ul{
   list-style-type: none;
 }
 .links li{
   display: inline-block;
-  margin-left: 5rem;
+  margin-right: 5rem;
   transition: color .10s ease-in;
   cursor: pointer;
 }
 .links li:hover{
-  color:tomato;
+  color:darkturquoise;
 } 
